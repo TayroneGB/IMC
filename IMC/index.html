@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="boot/css/bootstrap-grid.css">    
+    <link rel="stylesheet" href="boot/css/bootstrap.min.css">
+    <script src="boot/js/bootstrap.min.js"></script>
+</head>
+<body>   
+    <div class="a1">
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-p1-tab" data-bs-toggle="tab" data-bs-target="#nav-p1" type="button" role="tab" aria-controls="nav-p1" aria-selected="true">p1</button>         
+            </div>
+        </nav>
+    </div>
+
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-p1" role="tabpanel" aria-labelledby="nav-p1-tab">
+                <div id="container">
+                    <div class="a2">
+                        <h3>O que é IMC?</h3>
+                        <hr>
+                            <p>   IMC é a sigla para Índice de Massa Corporal, que é um cálculo que serve para avaliar se a pessoa está dentro do seu peso ideal em relação à altura. Assim, de acordo com o valor do resultado de IMC, a pessoa pode saber se está dentro do peso ideal, acima ou abaixo do peso desejado.</p>
+                    </div>                
+                    <div class="a3">
+                        <h5>Resultado</h5>
+                        <p id="res">
+                            Preencha os dados a para ver o resultado.                    
+                        </p>
+                        <p id="res2">
+                                                
+                        </p>
+                        
+                    </div>
+                    <div class="a4">
+                        <ul type="none">
+                            <li id="des">Abaixo do peso: IMC abaixo de 18,5.</li>
+                            <hr>
+                            <li id="des">Peso normal: IMC entre 18,5 e 24,9.</li>
+                            <hr>
+                            <li id="des">Sobrepeso: IMC entre 25 e 29,9.</li>
+                            <hr>
+                            <li id="des">Obesidade Grau I: IMC entre 30 e 34,9.</li>
+                            <hr>
+                            <li id="des">Obesidade Grau II: IMC entre 35 e 39,9.</li>
+                            <hr>
+                           <li id="des">Obesidade Grau III: IMC acima de 40.</li>               
+                        </ul>
+                    </div>
+                    <div class="a6">
+                        <h5>Calcule seu IMC</h5>
+                        <hr>
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput" class="form-label"><p>Altura</p></label>
+                            <input type="number" class="form-control" id="formGroupExampleInput" placeholder="EX:1,75">
+                          </div>
+                          <div class="mb-3">
+                            <label for="formGroupExampleInput2" class="form-label"><p>Peso</p></label>
+                            <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="EX: 60,35">
+                          </div>
+                        <button type="button" class="btn btn-light" id="but" onclick="Calcular()">Calcular</button>
+                    </div>
+                    <div class="a7">7</div>
+                </div>
+            </div>
+
+
+
+
+                         
+        </div>
+</body>
+<script src="index.js"></script>
+</html>

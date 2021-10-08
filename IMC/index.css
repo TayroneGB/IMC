@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+   
+  
+}
+
+#container{
+ 
+    background-color: #0d1117;
+    display: grid;
+    grid-template-columns: 0.7fr 0.3fr 1.1fr 1fr 0.3fr 2fr 2fr 2fr 0.7fr;
+    grid-template-rows:  5vh 20vh 15vh 10vh 20vh 20vh 5vh 5vh;
+    grid-template-areas:    "a1 a1 a1 a1 a1 a1 a1 a1 a1"                        
+                            ". . . . . a2 a2 a2 ."
+                            ". . a6 a6 . a2 a2 a2 ."
+                            ". . a6 a6 . a3 a3 a4 ."
+                            ". . a6 a6 . a3 a3 a4 ."
+                            ". . a6 a6 . a3 a3 a4 ."
+                            ". . . . . . . . ."
+                            "a7 a7 a7 a7 a7 a7 a7 a7 a7";
+                }
+
+.a1{
+    background-color: #1d232c;
+    grid-area:a1 ;
+    border: solid 1px #9d9e9f;    
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.a2{
+    background-color: #0d1117;
+    grid-area:a2 ;
+    border-radius: 5px 5px 0 0 ;
+    border: solid 1px #9d9e9f;  
+    
+    
+}
+.a3{
+    background-color: #0d1117;
+    grid-area:a3;
+    border-radius:  0 0 0 5px  ;
+    border: solid 1px #9d9e9f;  
+    border-top: 0px;
+    
+}
+.a4{
+    background-color:#0d1117;
+    grid-area:a4 ;
+    border: solid 1px #9d9e9f;  
+    border-top: 0px;
+  
+}
+.a5{
+    background-color: #0d1117;
+    grid-area:a5 ;
+    border-radius:  0 0 5px 0 ;
+    border: solid 1px #9d9e9f;  
+    border-top: 0px;
+}
+.a6{
+    background-color: #0d1117;
+    grid-area:a6;
+    border-radius: 5px;
+    border: solid 1px #9d9e9f;  
+   
+}
+.a7{
+    background-color: #1d232c;
+    grid-area:a7 ;
+    border-radius: 0 0 0 5px;
+    border: solid 1px #9d9e9f;    
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    
+}
+#formGroupExampleInput{
+    width: 150px;
+    margin: 5px 15px 15px 50px;
+}
+#formGroupExampleInput2{
+    width: 150px;
+    margin: 5px 15px 15px 50px;
+}
+p{
+    margin: 10px;
+}
+h3{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+#res{
+   font-size: 20px;
+}
+#but{ 
+    margin: 40px 90px;
+}
+ul{
+    font-size: 11px;
+    margin: 0;
+}
+#des{
+    font-size: 13px;
+    
+}

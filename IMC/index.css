@@ -11,8 +11,9 @@
     background-color: #0d1117;
     display: grid;
     grid-template-columns: 0.7fr 0.3fr 1.1fr 1fr 0.3fr 2fr 2fr 2fr 0.7fr;
-    grid-template-rows:  5vh 20vh 15vh 10vh 20vh 20vh 5vh 5vh;
-    grid-template-areas:    "a1 a1 a1 a1 a1 a1 a1 a1 a1"                        
+    grid-template-rows:  5vh 5vh 20vh 15vh 10vh 20vh 20vh 5vh 5vh;
+    grid-template-areas:    "a1 a1 a1 a1 a1 a1 a1 a1 a1"
+                            ". . . . . . . . ."                        
                             ". . . . . a2 a2 a2 ."
                             ". . a6 a6 . a2 a2 a2 ."
                             ". . a6 a6 . a3 a3 a4 ."
@@ -24,11 +25,12 @@
 
 .a1{
     background-color: #1d232c;
-    grid-area:a1 ;
+    grid-area:a1;
     border: solid 1px #9d9e9f;    
+    border-top: 0px;   
     border-left: 0px;
-    border-top: 0px;
     border-right: 0px;
+    
 }
 
 .a2{
@@ -71,7 +73,6 @@
 .a7{
     background-color: #1d232c;
     grid-area:a7 ;
-    border-radius: 0 0 0 5px;
     border: solid 1px #9d9e9f;    
     border-left: 0px;
     border-right: 0px;

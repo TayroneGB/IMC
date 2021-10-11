@@ -18,23 +18,23 @@ function Calcular() {
 
             } else if (imc < 24.9) {
                 res.innerHTML = imc
-                res2.innerHTML = '<h4>Peso normal!</h4> <p>asassa</p>'
+                res2.innerHTML = '<h4>Peso normal!</h4> <p>De acordo com a OMS, seu IMC é considerado normal para a sua altura. Para manter o valor de IMC normal</p>'
 
             } else if (imc < 29.9) {
                 res.innerHTML = imc
-                res2.innerHTML = '<h1>Sobre peso!</h1> <p>asassa</p>'
+                res2.innerHTML = '<h1>Sobre peso!</h1> <p>De acordo com a OMS, seu IMC está acima do recomendado para a sua altura. o cálculo de IMC não leva em consideração a composição corporal. Por esse motivo, pessoas com muita massa muscular, como é o caso de alguns atletas, podem apresentar um IMC acima do normal. O ideal é consultar um nutricionista para fazer uma avaliação mais detalhada.</p>'
 
             } else if (imc < 34.9) {
                 res.innerHTML = imc
-                res2.innerHTML = '<h1>Obesidade grau I!</h1> <p>asassa</p>'
+                res2.innerHTML = '<h1>Obesidade grau I!</h1> <p>De acordo com a OMS, seu IMC está acima do recomendado para a sua altura.</p><p> O ideal é consultar um nutricionista para fazer uma avaliação mais detalhada.</p>'
             }
             else if (imc < 39.9) {
                 res.innerHTML = imc
-                res2.innerHTML = '<h1>Obesidade grau II!</h1> <p>asassa</p>'
+                res2.innerHTML = '<h1>Obesidade grau II!</h1> <p>De acordo com a OMS, seu IMC está acima do recomendado para a sua altura.</p><p> O ideal é consultar um nutricionista para fazer uma avaliação mais detalhada.</p>'
             }
             else if (imc <= 40) {
                 res.innerHTML = imc
-                res2.innerHTML = '<h1>Obesidade grau III!</h1> <p>asassa</p>'
+                res2.innerHTML = '<h1>Obesidade grau III!</h1> <p>De acordo com a OMS, seu IMC está acima do recomendado para a sua altura.</p><p> O ideal é consultar um nutricionista para fazer uma avaliação mais detalhada.</p>'
             }
         }
 }
